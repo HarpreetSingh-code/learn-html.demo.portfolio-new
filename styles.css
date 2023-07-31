@@ -1,0 +1,146 @@
+:root {
+    --whiteTextColor: white;
+    --blackTextColor: black;
+    --whiteBackgroundColor: white;
+    --darkBlueColor: #0c0b1d;
+    --primaryOrange: #d40613;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--darkBlueColor);
+}
+.marker{
+    background-color: transparent;
+    color: var(--primaryOrange);
+    /* font-weight: 400; */
+}
+/* top stick naviagtor */
+nav {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: var(--darkBlueColor);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul li a {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--whiteTextColor);
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--whiteTextColor);
+    background-color: var(--primaryOrange);
+}
+
+/* about-Me section */
+.main-background-image-container {
+    background: url(./Images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-background-image-inner-container {
+    height: 90%;
+    width: 60%;
+    padding: 20px;
+    padding-left: 100px;
+    color: var(--whiteTextColor);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-background-image-inner-container p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 12px;
+    font-size: 20px;
+}
+
+#tagLine-1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+#tagLine-2 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 50px 0px;
+}
+
+#tagLine-3 {
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+/* experience-section */
+.aboutMe-container {
+    padding: 20px;
+    padding-top: 200px;
+    /* background-color: var(--whiteBackgroundColor); */
+    color: var(--whiteTextColor);
+}
+
+.tagLine {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--primaryOrange);
+}
+.description{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.aboutMe-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.rightContainer {
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
+    color: var(--whiteTextColor);
+}
+
+.leftContainer {
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+}
+
+.aboutMe-image {
+    width: 100%;
+    border-radius: 100px;
+}
